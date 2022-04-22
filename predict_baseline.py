@@ -1,6 +1,8 @@
 import torch
 import numpy as np
 
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+
 def predict(dataset, model, text, next_words=100):
     model.eval()
 
@@ -8,7 +10,7 @@ def predict(dataset, model, text, next_words=100):
     state_h, state_c = model.init_state(len(words))
 
     for i in range(0, next_words):
-        x = torch.tensor([[dataset.word_to_index[w] for w in words[i:]]]).to('cuda')
+        x = torch.tensor([[dataset.word_to_index[w] for w in words[i:]]]).to(device)
         y_pred, (state_h, state_c) = model(x, (state_h, state_c))
 
         last_word_logits = y_pred[0][-1]

@@ -1,6 +1,7 @@
 import torch.nn as nn
 import torch
 
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 class BaselineModel(nn.Module):
     def __init__(self, dataset, lstm_size=128, embedding_dim=128, num_layers=3):
@@ -30,6 +31,6 @@ class BaselineModel(nn.Module):
         return(logits, state)
     
     def init_state(self, sequence_length):
-        return (torch.zeros(self.num_layers, sequence_length, self.lstm_size).to('cuda'),
-                torch.zeros(self.num_layers, sequence_length, self.lstm_size).to('cuda'))
+        return (torch.zeros(self.num_layers, sequence_length, self.lstm_size).to(device),
+                torch.zeros(self.num_layers, sequence_length, self.lstm_size).to(device))
 

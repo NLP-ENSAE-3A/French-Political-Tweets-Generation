@@ -2,6 +2,8 @@ import torch
 from collections import Counter
 import pandas as pd
 
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+
 class Dataset(torch.utils.data.Dataset):
     def __init__(self, sequence_length):
         self.sequence_length = sequence_length
@@ -26,6 +28,6 @@ class Dataset(torch.utils.data.Dataset):
 
     def __getitem__(self, index):
         return (
-            torch.tensor(self.words_indexes[index:index+self.sequence_length]).to('cuda'),
-            torch.tensor(self.words_indexes[index+1:index+self.sequence_length+1]).to('cuda'),
+            torch.tensor(self.words_indexes[index:index+self.sequence_length]).to(device),
+            torch.tensor(self.words_indexes[index+1:index+self.sequence_length+1]).to(device),
         )
