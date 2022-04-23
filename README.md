@@ -5,8 +5,16 @@
 The report linked to this repository is available here : 
 
 # Overview
-In this work\footnote{https://github.com/NLP-ENSAE-3A/French-Political-Tweets-Generation}, we attempted to create a sequence-generation model that aims to replicate phraseologic patterns from an homegenous
+In this work, we attempted to create a sequence-generation model that aims to replicate phraseologic patterns from an homegenous
 political group. Our main motivation is to investigate the ability of our model to simulate thematic discourse and subtle languages nuances that could pass as genuine. Thereby, we our project is structured around the following question : is it possible to create bots that could actually perform \emph{astroturfing} and interfere in the political/social debate with relatively modest data and modelling techniques ?
+
+
+# Architecture
+
+The architecture we used is a pre-trained GPT-2 model that we fine-tuned on 30k French tweets from pro-Zemmour people. We used a simple baseline model of 3 LSTM layers to compare the results. We also used qualitative (rating) and quantitative (BERTScore) metrics.
+
+
+
 
 # Discussion
 
