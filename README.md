@@ -13,6 +13,8 @@ political group. Our main motivation is to investigate the ability of our model 
 
 The architecture we used is a pre-trained GPT-2 model that we fine-tuned on 30k French tweets from pro-Zemmour people. We used a simple baseline model of 3 LSTM layers to compare the results. We also used qualitative (rating) and quantitative (BERTScore) metrics.
 
+![Alt text](models.png?raw=true "Architecture models")
+
 
 
 
