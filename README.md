@@ -23,15 +23,15 @@ Here a some astonishing, or even frightening, generated sentences
 
 * L’islamisme est une secte qui veut d ́etruire les
 communaut ́es chr ́etiennes.
-• La France doit se lever et se mobiliser contre
+* La France doit se lever et se mobiliser contre
 la folie meurtri`ere de donald trump
-• L’immigration est un danger et c ̧a veut dire
+* L’immigration est un danger et c ̧a veut dire
 que les franc ̧ais ont besoin de l’aide.
-• L’immigration est une des principales raisons
+* L’immigration est une des principales raisons
 de l’ ́echec de la france
-• L’islamisme se fonde sur la peur, le m ́epris et
+* L’islamisme se fonde sur la peur, le m ́epris et
 le d ́esarroi.
-• La libert ́e de religion ne doit ˆetre accord ́e en
+* La libert ́e de religion ne doit ˆetre accord ́e en
 aucune mani`ere. vous n’avez aucun avenir.
 
 A few more examples are available in the appendix of the report.
