@@ -10,7 +10,16 @@ def predict(dataset, model, text, next_words=100):
     state_h, state_c = model.init_state(len(words))
 
     for i in range(0, next_words):
-        x = torch.tensor([[dataset.word_to_index[w] for w in words[i:]]]).to(device)
+        try:
+            x = torch.tensor([[dataset.word_to_index[w] for w in words[i:]]]).to(device)
+        except:
+            words_index = []
+            for w in words[i:]:
+                if w in dataset.word_to_index:
+                    words_index.append(dataset.word_to_index[w])
+                else:
+                    words_index.append(0)
+            x = torch.tensor([words_index]).to(device)
         y_pred, (state_h, state_c) = model(x, (state_h, state_c))
 
         last_word_logits = y_pred[0][-1]
