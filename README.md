@@ -24,18 +24,18 @@ The architecture we used is a pre-trained GPT-2 model that we fine-tuned on 30k 
 The GPT-2 model gave use astonishing results. Even though it is not that better than the baseline quantitatively, we clearly see a difference qualitatively. 
 Here a some astonishing, or even frightening, generated sentences
 
-* L’islamisme est une secte qui veut d ́etruire les
-communaut ́es chr ́etiennes.
-* La France doit se lever et se mobiliser contre
-la folie meurtri`ere de donald trump
-* L’immigration est un danger et c ̧a veut dire
-que les franc ̧ais ont besoin de l’aide.
-* L’immigration est une des principales raisons
-de l’ ́echec de la france
-* L’islamisme se fonde sur la peur, le m ́epris et
-le d ́esarroi.
-* La libert ́e de religion ne doit ˆetre accord ́e en
-aucune mani`ere. vous n’avez aucun avenir.
+* > L'islamisme est une secte qui veut détruire les
+communautés chrétiennes.
+* > La France doit se lever et se mobiliser contre
+la folie meurtrière de donald trump
+* > L'immigration est un danger et ça veut dire
+que les français ont besoin de l'aide.
+* > L'immigration est une des principales raisons
+de l'échec de la france
+* > L'islamisme se fonde sur la peur, le mépris et
+le désarroi.
+* > La liberté de religion ne doit être accordé en
+aucune manière. vous n'avez aucun avenir.
 
 A few more examples are available in the appendix of the report.
 
