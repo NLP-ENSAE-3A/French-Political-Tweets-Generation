@@ -1,8 +1,9 @@
 [![Generic badge](https://img.shields.io/badge/ENSAE-ML%20for%20NLP-blue.svg)](https://shields.io/)
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python) [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Naereen/badges)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python) [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qrKfXM04D2GN3uQBcbMVCFrUkhhVlV3s?usp=sharing)
 
 
-The report linked to this repository is available here : 
+The report linked to this repository is available here :
+The link to the colab : https://colab.research.google.com/drive/1qrKfXM04D2GN3uQBcbMVCFrUkhhVlV3s?usp=sharing
 
 # Overview
 In this work, we attempted to create a sequence-generation model that aims to replicate phraseologic patterns from an homegenous
