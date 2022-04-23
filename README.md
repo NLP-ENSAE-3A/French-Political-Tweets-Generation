@@ -1,4 +1,6 @@
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
+[![Generic badge](https://img.shields.io/badge/<ENSAE>-<ML for NLP>-<COLOR>.svg)](https://shields.io/)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python) [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Naereen/badges)
+
 
 The report linked to this repository is available here : 
 
