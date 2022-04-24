@@ -5,7 +5,7 @@
 
 **The report linked to this repository is available [here](final_report.pdf)**
 
-**The colab is available [here](https://colab.research.google.com/drive/1qrKfXM04D2GN3uQBcbMVCFrUkhhVlV3s?usp=sharing)**
+**The colab notebook is available [here](https://colab.research.google.com/drive/1qrKfXM04D2GN3uQBcbMVCFrUkhhVlV3s?usp=sharing)**
 
 ## Overview
 In this work, we attempted to create a sequence-generation model that aims to replicate phrase-ologic patterns from an homegenous
