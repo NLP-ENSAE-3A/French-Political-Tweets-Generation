@@ -9,7 +9,7 @@ The link to the colab : https://colab.research.google.com/drive/1qrKfXM04D2GN3uQ
 
 ## Overview
 In this work, we attempted to create a sequence-generation model that aims to replicate phraseologic patterns from an homegenous
-political group. Our main motivation is to investigate the ability of our model to simulate thematic discourse and subtle languages nuances that could pass as genuine. Thereby, we our project is structured around the following question : is it possible to create bots that could actually perform \emph{astroturfing} and interfere in the political/social debate with relatively modest data and modelling techniques ?
+political group. Our main motivation is to investigate the ability of our model to simulate thematic discourse and subtle languages nuances that could pass as genuine. Thereby, our project is structured around the following question : is it possible to create bots that could actually perform \emph{astroturfing} and interfere in the political/social debate with relatively modest data and modelling techniques ?
 
 
 ## Architecture
