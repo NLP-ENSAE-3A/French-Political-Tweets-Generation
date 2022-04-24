@@ -3,9 +3,9 @@
 
 # Sequence generation model for replicating phraseological patterns from an homegenous political group
 
-The report linked to this repository is available here :
+The report linked to this repository is available [here](final_report.pdf)
 
-The link to the colab : https://colab.research.google.com/drive/1qrKfXM04D2GN3uQBcbMVCFrUkhhVlV3s?usp=sharing
+**The colab is available [here](https://colab.research.google.com/drive/1qrKfXM04D2GN3uQBcbMVCFrUkhhVlV3s?usp=sharing)**
 
 ## Overview
 In this work, we attempted to create a sequence-generation model that aims to replicate phraseologic patterns from an homegenous
