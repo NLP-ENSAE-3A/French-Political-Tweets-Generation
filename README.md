@@ -3,12 +3,12 @@
 
 # Sequence generation model for replicating phraseological patterns from an homegenous political group
 
-The report linked to this repository is available [here](final_report.pdf)
+**The report linked to this repository is available [here](final_report.pdf)**
 
 **The colab is available [here](https://colab.research.google.com/drive/1qrKfXM04D2GN3uQBcbMVCFrUkhhVlV3s?usp=sharing)**
 
 ## Overview
-In this work, we attempted to create a sequence-generation model that aims to replicate phraseologic patterns from an homegenous
+In this work, we attempted to create a sequence-generation model that aims to replicate phrase-ologic patterns from an homegenous
 political group. Our main motivation is to investigate the ability of our model to simulate thematic discourse and subtle languages nuances that could pass as genuine. Thereby, our project is structured around the following question : is it possible to create bots that could actually perform \emph{astroturfing} and interfere in the political/social debate with relatively modest data and modelling techniques ?
 
 
